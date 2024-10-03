@@ -7,7 +7,7 @@ You need following things installed before you can code a Pepper Application
 - Plugin = **Pepper SDK** Version **API 7**
 - Android Studio Platform SDK = **Android API 34**
 -  Android Studio Tools SDK = **34.0.0**
-> **Note:** In the documentation folder is a more detail instruction on how to set up a running Pepper Envouirment
+> **Note:** In the documentation folder is a more detail instruction on how to set up a running Pepper Environment
 ## Create a new Roboter application from scratch
 1. From Android Studio chose: **New File** > **Project** > **New Project**
 2. Chose **Empty Compose Activity**
