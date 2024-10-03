@@ -31,5 +31,7 @@ You need following things installed before you can code a Pepper Application
 13. Execute **File** > **Invalidate Caches** 
 14. Android Studio will restart automatically
 15. **Now you have a running Pepper Application**
+16. Now replace the MainActivitiy with the MainActivity Code Snippet from **Documentation/MainActivity**
+17. Sync build and start to program 
 
 > **Note:** In the documentation folder is a more detail instruction on how to set up a running Pepper Application
