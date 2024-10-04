@@ -30,8 +30,14 @@ You need following things installed before you can code a Pepper Application
 12. Save changes **Crtl + S**
 13. Execute **File** > **Invalidate Caches** 
 14. Android Studio will restart automatically
-15. **Now you have a running Pepper Application**
-16. Now replace the MainActivitiy with the MainActivity Code Snippet from **Documentation/MainActivity**
-17. Sync build and start to program 
+15. Run the app and more errors will appear
+16. Under **Gradle Scripts** > **gradle.properties** copy this code snippet
+
+> android.enableJetifier=true
+
+17. **Build** > **Make Project**
+18. **Now you have a running Pepper Application**
+19. Now replace the MainActivitiy with the MainActivity Code Snippet from **Documentation/MainActivity**
+20. Sync build and start to program 
 
 > **Note:** In the documentation folder is a more detail instruction on how to set up a running Pepper Application
