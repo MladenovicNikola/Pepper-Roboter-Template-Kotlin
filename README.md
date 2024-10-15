@@ -38,6 +38,54 @@ You need following things installed before you can code a Pepper Application
 17. **Build** > **Make Project**
 18. **Now you have a running Pepper Application**
 19. Now replace the MainActivitiy with the MainActivity Code Snippet from **Documentation/MainActivity**
-20. Sync build and start to program 
+20. Sync build
+21. Under **Gralde Scripts** > **build.gralde (Project: Skeleton)** > **buildscript** > **ext** add this following code snippet
+> kotlin_version = '1.7.10'
+22. In  **Gralde Scripts** > **build.gralde (Module: app)** > **dependencies** add the following dependencies
+> implementation fileTree(dir: 'libs', include: ['*.jar'])
+ 
+> implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+>
+> implementation 'androidx.activity:activity-compose:1.3.1'
+>
+> implementation 'androidx.appcompat:appcompat:1.5.1'
+> 
+> implementation "androidx.compose.ui:ui:$compose_ui_version"
+> 
+> implementation 'androidx.core:core-ktx:1.9.0'
+> 
+> implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+> 
+> implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
+> 
+> implementation 'androidx.activity:activity-compose:1.3.1'
+> 
+> implementation "androidx.compose.ui:ui:$compose_ui_version"
+> 
+> implementation "androidx.compose.ui:ui-tooling-preview:$compose_ui_version"
+> 
+> implementation 'androidx.compose.material:material:1.2.0'
+> 
+> testImplementation 'junit:junit:4.13.2'
+> 
+> androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+> 
+> androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+> 
+> androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
+> 
+> debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
+> 
+> debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
+> 
+> implementation "androidx.navigation:navigation-compose:2.5.3"
+> 
+> implementation 'com.aldebaran:qisdk:1.7.5'
+> 
+> implementation 'com.aldebaran:qisdk-design:1.7.5'
+> 
+> implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+> 
+> implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 
 > **Note:** In the documentation folder is a more detail instruction on how to set up a running Pepper Application
