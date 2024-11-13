@@ -3,7 +3,7 @@
 
 ## First Time using Pepper
 You need following things installed before you can code a Pepper Application
-- Android Studio Electric Eel | 2022.1.1 Patch 2 February 27, 2023
+- Android Studio Bumblebee | 2021.1.1 Patch 3 April 7, 2022
 - Plugin = **Pepper SDK** Version **API 7**
 - Android Studio Platform SDK = **Android API 34**
 -  Android Studio Tools SDK = **34.0.0**
